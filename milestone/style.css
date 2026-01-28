@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+#site-title{
+    margin: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome{
+    text-align: center;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+section h2::before{
+    content: "\1F4C4";
+}
+
+#about{
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#experience, #education, #skills{
+    border-left: 5px  solid #007bff;
+    padding-left: 1rem;
+}
+
+ul{
+    padding-left: 1rem;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: 1rem;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media(max-width: 600px){
+    nav li{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    main{
+        padding: 0.5rem;
+    }
+}
